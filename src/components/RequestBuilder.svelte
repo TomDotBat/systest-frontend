@@ -59,7 +59,7 @@
                                     <SelectMenu items={services.map((service) => service.name)} bind:selection={serviceIndex} />
                                 {:catch error}
                                     <div class="w-60 relative">
-                                        <button type="button" disabled class="relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-sky-600 sm:text-sm sm:leading-6">
+                                        <button type="button" disabled class="relative w-full cursor-default rounded-md bg-red-50 py-1.5 pl-3 pr-10 text-left text-red-700 shadow-sm ring-1 ring-inset ring-red-300 sm:text-sm sm:leading-6">
                                             Failed to fetch services
                                         </button>
                                     </div>
