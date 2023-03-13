@@ -34,7 +34,7 @@
             <RequestBuilder onSend={sendRequest} isSending={promise && promise.state } />
             {#if promise != null}
                 {#await promise}
-                    <LoadingSpinner color="sky-500" />
+                    <LoadingSpinner color="sky-600" />
                 {:then response}
                     <div class="mx-auto max-w-7xl pt-4">
                         <h1 class="text-3xl font-bold leading-tight tracking-tight text-gray-900">Request Waterfall</h1>

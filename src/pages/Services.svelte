@@ -13,7 +13,7 @@
     <main>
         <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 space-y-4">
             {#await getAllPromise}
-                <LoadingSpinner color="sky-500" />
+                <LoadingSpinner color="sky-600" />
             {:then applications}
                 {#each applications as application}
                     <Application application={application} />
